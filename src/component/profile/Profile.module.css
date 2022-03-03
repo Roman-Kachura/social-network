@@ -1,0 +1,16 @@
+.profile{
+    display: flex;
+}
+
+.profileImage{
+    height: 390px;
+    width: 300px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+.profileImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

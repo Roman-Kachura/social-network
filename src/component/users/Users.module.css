@@ -1,0 +1,110 @@
+.users{
+
+}
+
+.usersItem{
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding:20px;
+    margin-bottom: 20px;
+    /*height: 300px;*/
+}
+
+.image{
+    overflow: hidden;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 10px;
+}
+
+.userName{
+    font-size: 1.8rem;
+    color:#000;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: .2s;
+}
+
+.userName:hover{
+    color:#999;
+}
+
+.buttonsBlock{
+    display: flex;
+    justify-content: start;
+}
+
+.buttonsBlock button,
+.buttonsBlock a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+    width: 70px;
+    height: 30px;
+    border:none;
+    border-radius: 2px;
+    background: #999;
+    color:#000;
+    text-decoration: none;
+    padding:5px;
+    cursor:pointer;
+    transition: .2s;
+    margin-right: 5px;
+}
+
+.buttonsBlock button:hover,
+.buttonsBlock a:hover{
+    background: #90A877FF;
+}
+
+.buttonsBlock button:active,
+.buttonsBlock a:active{
+    background: #90A877df;
+}
+
+.showPageBtnsBlock{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.showPageBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#000;
+    width: 9%;
+    cursor: pointer;
+    border:none;
+    padding:5px;
+    border-radius: 2px;
+    background: #999;
+    text-decoration: none;
+}
+
+.showPageBtn:hover{
+    background: #90A877df;
+}
+
+.active{
+    background: #90A877df;
+    border: 2px solid #000000;
+}
