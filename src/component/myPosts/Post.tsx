@@ -30,7 +30,6 @@ export const Post = ({id, title, text, ...props}: PostPropsType) => {
             setEditMode(!editMode);
         }
     }
-    console.log(title + ',' + text);
     return (<div className={'block ' + s.postsItem} key={id}>
         <div className={s.postsItemContent}>
             {<h6 className={s.postTitle}>

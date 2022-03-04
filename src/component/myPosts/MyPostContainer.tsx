@@ -32,7 +32,6 @@ type MapStateType = {
 
 class MyPostsClass extends React.Component<MyPostsContainerProps> {
     render() {
-        console.log(this.props);
         return <MyPosts {...this.props}/>;
     }
 }
