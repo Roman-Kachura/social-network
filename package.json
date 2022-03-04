@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set port=3099 && node server.js"
+    "start": "set port=3000 && node server.js"
   },
   "repository": {
     "type": "git",
