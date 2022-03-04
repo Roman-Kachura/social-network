@@ -1,0 +1,23 @@
+{
+  "name": "social-network",
+  "version": "1.0.0",
+  "description": "build",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roman-Kachura/social-network.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Roman-Kachura/social-network/issues"
+  },
+  "homepage": "https://github.com/Roman-Kachura/social-network#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
