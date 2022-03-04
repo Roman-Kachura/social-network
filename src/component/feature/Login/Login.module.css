@@ -1,0 +1,30 @@
+.form{
+    width: 500px;
+}
+
+.form label{
+    display: block;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.form input[type='text'],
+.form input[type='password']{
+    width: 100%;
+    padding:10px;
+    border-radius: 5px;
+}
+
+.form input[type='submit']{
+    background: #90A877FF;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    color:#fff;
+    cursor: pointer;
+}
+
+.error{
+    margin: 10px 0;
+    color:red;
+}
